@@ -1,0 +1,5 @@
+./basalt_vio --dataset-path /media/csj/60B8D09AB8D07050/tmp_data/dataset-magistrale1_512_16/ --cam-calib ../data/tumvi_512_ds_calib.json --dataset-type euroc --config-path ../data/tumvi_512_config.json --marg-data tumvi_marg_data --show-gui 1
+./basalt_mapper --cam-calib ../data/tumvi_512_ds_calib.json --marg-data tumvi_marg_data
+
+./basalt_vio --dataset-path /media/csj/60B8D09AB8D07050/tmp_data/MH_05_difficult/ --cam-calib ../data/euroc_ds_calib.json --dataset-type euroc --config-path ../data/euroc_config.json --marg-data euroc_marg_data --show-gui 1
+./basalt_mapper --cam-calib ../data/euroc_ds_calib.json --marg-data euroc_marg_data
